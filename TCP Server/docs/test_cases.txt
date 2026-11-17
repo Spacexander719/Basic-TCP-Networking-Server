@@ -1,0 +1,4 @@
+Commands
+Server: python -m server.server
+
+Clients: python -m client.client

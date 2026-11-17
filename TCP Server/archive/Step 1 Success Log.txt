@@ -1,0 +1,20 @@
+PS C:\Users\benny\Documents\Networks\TCP Server> python -m server.server
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\benny\Documents\Networks\TCP Server\server\server.py", line 4, in <module>
+    from client_handler import handle_client, clients
+ModuleNotFoundError: No module named 'client_handler'
+PS C:\Users\benny\Documents\Networks\TCP Server> python -m server.server
+Server listening on 127.0.0.1:12000
+[CONNECTED] ('127.0.0.1', 65475)
+Active connections: 1
+[('127.0.0.1', 65475)] What's Poppin? 
+[CONNECTED] ('127.0.0.1', 65500)
+Active connections: 2
+[('127.0.0.1', 65500)] What's crack-a-lacking?
+[('127.0.0.1', 65475)] What's Poppin? 
+[('127.0.0.1', 65500)] Computer Science Bitch
+[DISCONNECTED] ('127.0.0.1', 65475)
+[('127.0.0.1', 65500)] Anyone still there?
+[DISCONNECTED] ('127.0.0.1', 65500)

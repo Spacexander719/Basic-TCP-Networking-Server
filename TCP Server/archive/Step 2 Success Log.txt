@@ -1,0 +1,14 @@
+C:\Users\benny\Documents\Networks\TCP Server> python -m server.server 
+Server listening on 127.0.0.1:12000
+[CONNECTED] Alpha (('127.0.0.1', 54543))
+Active connections: 1
+Active connections: 2
+[CONNECTED] Beta (('127.0.0.1', 54561))
+[CONNECTED] Charlie (('127.0.0.1', 62778))
+Active connections: 3
+Charlie: C chat
+Beta: B chat
+Alpha: A chat
+Active connections: 4
+[CONNECTED] Delta (('127.0.0.1', 63069))
+Delta: D chat
